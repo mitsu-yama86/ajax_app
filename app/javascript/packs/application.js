@@ -7,7 +7,7 @@ require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
-require("../checked")
+require("../checked") //..は、このapplicationファイルが入っている階層の一つ上のディレクトリをさす
 require("../memo")
 
 
